@@ -27,7 +27,9 @@ if __name__=="__main__":
     with mlflow.start_run(run_name="YOUR_RUN_NAME") as run:
         params = {
             'tol': 1e-2,
-            'solver': 'sag'
+            'solver': 'lsqr',
+            'fit_intercept': False,
+            'alpha': 0.1
         }
         # Fit a ridge classifier after performing standard scaling
         std_scale_clf = make_pipeline(StandardScaler(), RidgeClassifier(**params))

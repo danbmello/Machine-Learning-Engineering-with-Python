@@ -1,6 +1,6 @@
 import numpy
 import pytest
-import outliers.utils.data
+from outliers.utils.data import create_data
 
 
 @pytest.fixture()

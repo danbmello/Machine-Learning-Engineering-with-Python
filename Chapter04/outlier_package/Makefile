@@ -130,6 +130,9 @@ clean:
 test:
 	@pytest
 
+print:
+	@echo $(PROJECT_NAME)
+
 
 
 #lint:

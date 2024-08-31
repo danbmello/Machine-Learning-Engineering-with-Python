@@ -152,7 +152,7 @@ dependencies:
       - notebook==6.5.4
       - notebook-shim==0.2.3
       - numba==0.56.4
-      - numpy==1.23.5
+      - numpy
       - oauthlib==3.2.2
       - opencv-python==4.7.0.72
       - opt-einsum==3.3.0
@@ -188,8 +188,8 @@ dependencies:
       - rfc3339-validator==0.1.4
       - rfc3986-validator==0.1.1
       - rsa==4.9
-      - scikit-image==0.20.0
-      - scikit-learn==0.24.2
+      - scikit-image
+      - scikit-learn
       - scipy==1.10.1
       - send2trash==1.8.2
       - smac==1.2
@@ -206,9 +206,7 @@ dependencies:
       - tensorboard==2.12.2
       - tensorboard-data-server==0.7.0
       - tensorboard-plugin-wit==1.8.1
-      - tensorflow-estimator==2.12.0
-      - tensorflow-macos==2.12.0
-      - tensorflow-metal==0.8.0
+      - tensorflow-estimator
       - termcolor==2.3.0
       - terminado==0.17.1
       - threadpoolctl==3.1.0
