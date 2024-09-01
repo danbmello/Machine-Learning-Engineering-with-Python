@@ -20,6 +20,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: sa-east-1
       - name: Copy files to bucket with the AWS CLI
-        run: |
-        aws s3 cp ./dags s3://github-actions-ci-cd-tests
-        --recursive--include "*.py"
+        run: aws s3 cp ./dags s3://github-actions-ci-cd-tests --recursive--include "*.py"
